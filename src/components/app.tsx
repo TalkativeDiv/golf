@@ -9,6 +9,7 @@ const App = () => {
       </div>
       <br />
       <a
+        href="https://github.com/TalkativeDiv/golf"
         className="text-gray-200 bg-gray-800 hover:bg-gray-900  hover:shadow-none shadow-xl focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 "
       >
         Github
