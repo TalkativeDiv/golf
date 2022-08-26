@@ -16,6 +16,12 @@
 		"react-redux": "^8.0.2",
 		"vite-plugin-compress": "^2.1.1"
 	},
+	"lint-staged": {
+		"**/*.{js,jsx,ts,tsx}": [
+			"npx prettier --write",
+			"npx eslint --fix"
+		]
+	},
 	"devDependencies": {
 		"@nabla/vite-plugin-eslint": "^1.4.1",
 		"@preact/preset-vite": "^2.3.0",
